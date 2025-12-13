@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://neodetect-1-3dk6.onrender.com/api',
+    baseURL: 'http://localhost:5000/api',
 });
 
 // Auth interceptor removed as authentication is no longer required.
