@@ -1,64 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-brand-50: #f0f9fa;
-  --color-brand-100: #d5f0f3;
-  --color-brand-200: #aee0e6;
-  --color-brand-300: #7cc7d1;
-  --color-brand-400: #4da6b4;
-  --color-brand-500: #318998;
-  --color-brand-600: #266e7d;
-  --color-brand-700: #225a67;
-  --color-brand-800: #214b56;
-  --color-brand-900: #1e3f49;
-  --color-brand-950: #0f2831;
-
-  --color-accent-50: #fff8f1;
-  --color-accent-500: #f97316;
-  --color-accent-600: #ea580c;
-
-  --color-surface: #ffffff;
-  --color-background: #f8fafc;
-
-  --font-display: "Outfit", "Inter", system-ui, sans-serif;
-  --font-sans: "Inter", system-ui, sans-serif;
-
-  --animate-blob: blob 7s infinite;
-  --animate-float: float 6s ease-in-out infinite;
-
-  @keyframes blob {
-    0% {
-      transform: translate(0px, 0px) scale(1);
-    }
-
-    33% {
-      transform: translate(30px, -50px) scale(1.1);
-    }
-
-    66% {
-      transform: translate(-20px, 20px) scale(0.9);
-    }
-
-    100% {
-      transform: translate(0px, 0px) scale(1);
-    }
-  }
-
-  @keyframes float {
-
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-
-  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-  --shadow-glass-hover: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   html {
