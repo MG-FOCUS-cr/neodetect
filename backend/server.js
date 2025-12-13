@@ -18,7 +18,14 @@ const startServer = async () => {
         const PORT = process.env.PORT || 5000;
 
         // Middleware
-        app.use(cors());
+        app.use(cors({
+            origin: [
+                "https://neodetect-1.onrender.com", // your frontend URL
+                "http://localhost:5173"             // optional: for local dev
+            ],
+            methods: ["GET", "POST", "PUT", "DELETE"],
+            credentials: true
+        }));
         app.use(express.json());
         app.use(express.urlencoded({ extended: false }));
 
