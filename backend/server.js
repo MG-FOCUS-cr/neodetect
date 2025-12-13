@@ -20,8 +20,9 @@ const startServer = async () => {
         // Middleware
         app.use(cors({
             origin: [
-                "https://neodetect-1.onrender.com", // your frontend URL
-                "http://localhost:5173"             // optional: for local dev
+                "https://neodetect-frontend-d3kk-r0izctty6.vercel.app",
+                "https://neodetect-1.onrender.com",
+                "http://localhost:5173"
             ],
             methods: ["GET", "POST", "PUT", "DELETE"],
             credentials: true
