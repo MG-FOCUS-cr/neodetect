@@ -1,7 +1,6 @@
-# Env files
+node_modules/
 .env
-.env.*
-node_modules
-dist
-logs
 *.log
+.DS_Store
+dist/
+build/
