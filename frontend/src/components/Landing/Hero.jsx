@@ -21,7 +21,7 @@ const Hero = () => {
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-accent-500">Lexique Algérien</span>
                     </h1>
                     <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-                        Une plateforme intelligente pour détecter, analyser et archiver les néologismes, l'argot et les expressions culturelles de l'Algérie.
+                        Une plateforme intelligente pour détecter, analyser et archiver les néologismes dans le discours algérien d'expression française.
                     </p>
                 </motion.div>
 
