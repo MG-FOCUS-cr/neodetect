@@ -7,6 +7,7 @@ import HistoryList from '../components/Dashboard/HistoryList';
 import DictionaryManager from '../components/Dashboard/DictionaryManager';
 import OfficialDictionary from '../components/Dashboard/OfficialDictionary';
 import AlgerianLexicon from '../components/Dashboard/AlgerianLexicon';
+import LexicalTrends from '../components/Dashboard/LexicalTrends';
 import { Search, Bell, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -77,6 +78,8 @@ const Dashboard = () => {
 
                         {/* Sidebar / Secondary Info */}
                         <div className="xl:col-span-1 space-y-6">
+                            {/* Lexical Trends */}
+                            <LexicalTrends />
 
                             {/* Pro Tip Card */}
                             <div className="bg-gradient-to-br from-brand-600 to-indigo-700 rounded-2xl p-6 text-white shadow-lg shadow-brand-500/20 relative overflow-hidden">

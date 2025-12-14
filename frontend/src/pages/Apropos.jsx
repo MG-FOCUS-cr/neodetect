@@ -158,7 +158,9 @@ const Apropos = () => {
                         </div>
                     </motion.section>
 
-                    {/* CTA */}
+
+
+                    {/* Contact & Collaboration */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -167,15 +169,22 @@ const Apropos = () => {
                     >
                         <div className="glass-card p-8">
                             <h3 className="text-xl font-bold text-slate-900 mb-4">
-                                Prêt à explorer la richesse du français algérien ?
+                                Collaborer avec nous
                             </h3>
-                            <p className="text-slate-600 mb-6">
-                                Découvrez notre outil d'analyse néologique et contribuez à la recherche linguistique.
+                            <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+                                Vous êtes chercheur, enseignant ou passionné de linguistique ? 
+                                Rejoignez notre communauté et contribuez à l'enrichissement du lexique algérien.
                             </p>
-                            <a href="/analyse" className="btn-primary inline-flex items-center gap-2">
-                                Essayer NéoDétect
-                                <Search size={18} />
-                            </a>
+                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                                <div className="bg-brand-50 p-4 rounded-lg border border-brand-100">
+                                    <h4 className="font-semibold text-slate-900 mb-2">Recherche collaborative</h4>
+                                    <p className="text-sm text-slate-600">Partagez vos corpus et analyses</p>
+                                </div>
+                                <div className="bg-accent-50 p-4 rounded-lg border border-accent-100">
+                                    <h4 className="font-semibold text-slate-900 mb-2">Validation communautaire</h4>
+                                    <p className="text-sm text-slate-600">Participez à la validation des néologismes</p>
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
 

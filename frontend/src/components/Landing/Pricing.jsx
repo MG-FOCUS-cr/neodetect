@@ -8,7 +8,7 @@ const plans = [
         price: "Gratuit",
         period: "",
         desc: "Pour les curieux et les étudiants.",
-        features: ["50 analyses / jour", "Accès partiel au lexique", "Pubs discrètes"]
+        features: ["5 analyses gratuites", "Accès partiel au lexique", "Pubs discrètes"]
     },
     {
         name: "Chercheur",
@@ -20,7 +20,7 @@ const plans = [
     },
     {
         name: "Institution",
-        price: "Sur Devis",
+        price: "5000 DA",
         period: "",
         desc: "Pour les universités et laboratoires.",
         features: ["Licence multi-utilisateurs", "Intégration sur mesure", "Formation incluse"]

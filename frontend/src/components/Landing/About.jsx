@@ -2,12 +2,12 @@ import React from 'react';
 import { Database, Brain, Globe } from 'lucide-react';
 
 const Feature = ({ icon: Icon, title, description }) => (
-    <div className="p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+    <div className="p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
         <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-4">
             <Icon className="w-6 h-6 text-secondary" />
         </div>
-        <h3 className="text-xl font-bold text-primary mb-2">{title}</h3>
-        <p className="text-gray-500 leading-relaxed">{description}</p>
+        <h3 className="text-xl font-bold text-primary mb-2 break-words">{title}</h3>
+        <p className="text-gray-500 leading-relaxed break-words">{description}</p>
     </div>
 );
 
