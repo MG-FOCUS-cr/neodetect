@@ -6,7 +6,7 @@ const WordGraph = () => {
     // Mock data for visualization - in a real app, this would come from a specific aggregation endpoint
     const data = [
         { label: 'Hittiste', value: 85, color: 'bg-brand-500' },
-        { label: 'Chkoupi', value: 65, color: 'bg-purple-500' },
+        { label: 'wallah', value: 65, color: 'bg-purple-500' },
         { label: 'Garantita', value: 45, color: 'bg-pink-500' },
         { label: 'Walou', value: 30, color: 'bg-indigo-500' },
         { label: 'Sahit', value: 20, color: 'bg-sky-500' },

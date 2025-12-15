@@ -37,7 +37,7 @@ const Analyse = () => {
                         Analyse <span className="text-brand-600">Sociolinguistique</span>
                     </h1>
                     <p className="text-slate-600 max-w-2xl mx-auto text-base md:text-lg">
-                        Décodez les néologismes, l'argot et les références culturelles algériennes grâce à notre IA spécialisée.
+                        Décodez les néologismes dans le discours algérien d'expression française.
                     </p>
                 </div>
 
